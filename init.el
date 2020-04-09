@@ -201,7 +201,7 @@
 	       ((auto-mode . emacs)
 		("\\.png\\'" . "sxiv %s")
 		("\\.jpg\\'" . "sxiv %s")
-		("\\.pdf\\'" . "zathura %s"))))
+		("\\.pdf\\'" . "evince %s"))))
 
 (setq org-directory "~/Dropbox/Notes")
 (setq org-capture-templates
@@ -220,6 +220,7 @@
 (setq-default org-display-custom-times t)
 (setq org-time-stamp-custom-formats '("[%a %b %e %Y]" . "<%a %b %e %Y %H:%M>")
       org-agenda-files (quote ("~/Dropbox/Notes/"))
+      org-log-done 'time
       org-goto-interface 'outline-path-completion
       org-outline-path-complete-in-steps nil)
 
