@@ -98,144 +98,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/rob/Dropbox
-	Docs
-4
-d/home/rob/Dropbox/Docs
-	Illustrations_of_the_Topography_and_Anti.pdf
-34
-d/home/rob/Downloads
-	JetBrainsMono-1.0.0.zip
-4
-d/home/rob
-	Dropbox
-30
-d/home/rob/Dropbox
-	Genealogy
-5
-d/home/rob/Dropbox/Genealogy
-	Durkin
-5
-d/home/rob/Dropbox/Genealogy/Durkin
-	6-Feb-1884_British_Prince.jpg
-4
-d/home/rob/.config
-	pulse
-36
-d/home/rob
-	.cache
-2
-d/home/rob/.cache
-	tracker
-25
-d/home/rob/.cache/tracker
-	..
-0
-d/home/rob/.cache
-	typescript
-25
-d/home/rob
-	.local
-15
-d/home/rob/.local
-	share
-2
-d/home/rob/.local/share
-	tracker
-31
-d/home/rob/.local/share/tracker
-	data
-1
-d/home/rob/.local/share/tracker/data
-	..
-0
-d/home/rob/.local/share/tracker
-	data
-1
-d/home/rob/.local/share
-	..
-0
-d/home/rob/.local
-	share
-2
-d/home/rob
-	.config
-3
-d/home/rob/.config
-	..
-0
-d/home/rob
-	.dbus
-4
-d/home/rob/.dbus
-	session-bus
-1
-d/home/rob/.dbus/session-bus
-	..
-0
-d/home/rob/.dbus
-	session-bus
-1
-d/home/rob
-	.cache
-2
-d/home/rob/.cache
-	tracker
-25
-d/home/rob/.cache/tracker
-	..
-0
-d/home/rob/.cache
-	typescript
-25
-d/home/rob
-	.cache
-2
-d/home/rob/Downloads
-	cherrytree_0.38.9-0_all.deb
-4
-d/home/rob/Dropbox
-	Genealogy
-5
-d/home/rob/Dropbox/Genealogy
-	IrishGivenNameAlternatives.pdf
-33
-d/home/rob/Downloads
-	Mojave-gtk-theme-master.zip
-1
-d/home/rob
-	Pictures
-34
-d/home/rob/Pictures
-	Age and Stupidty.jpg
-4
-d/home/rob
-	Pictures
-34
-d/home/rob/.config
-	omf
-33
-d/home/rob/.config/omf
-	..
-0
-d/home/rob/.config
-	omf
-33
-d/home/rob/Downloads
-	Mojave-gtk-theme-master.zip
-1
-d/home/rob/Dropbox
-	Genealogy
-5
-d/home/rob
-	Pictures
-34
-d/home/rob/Pictures
-	waterfall-wallpaper-desktop-hd.jpg
-22
-d/home/rob
-	.gramps
-9
 d/home/rob/.gramps
 	gramps51
 5
@@ -396,155 +258,149 @@ d/usr/lib
 	accountsservice
 3
 d/home/rob
-	VMs
-31
+	Temp
+29
+d/home/rob/Temp
+	init.el
+4
+d/usr
+	share
+9
+d/
+	mnt
+8
+d/mnt
+	..
+0
+d/
+	run
+12
+d/run
+	media
+13
+d/run/media
+	rob
+1
+d/run/media/rob
+	9bae9626-f501-44ec-baba-1cec06717de1
+1
+d/run/media/rob/9bae9626-f501-44ec-baba-1cec06717de1
+	rob
+2
+d/run/media/rob/9bae9626-f501-44ec-baba-1cec06717de1/rob
+	dotfiles
+12
+d/run/media/rob/9bae9626-f501-44ec-baba-1cec06717de1/rob/dotfiles
+	init.el
+18
+d/home/rob/Downloads
+	manjaro-gnome-19.0.2-200312-linux54.iso
+2
+d/home/rob/Temp
+	McMojave-Ct
+3
+d/home/rob/Temp/McMojave-Ct
+	McMojave-circle
+1
+d/home/rob/Temp
+	McMojave
+2
+d/home/rob/Temp/McMojave
+	Mojave-dark
+1
+d/home/rob/Temp
+	McMojave
+2
+d/home/rob
+	Temp
+29
+d/home/rob/dotfiles
+	nvim
+1
+d/home/rob/dotfiles/nvim
+	init.vim
+7
+d/home/rob/dotfiles
+	nvim
+2
+d/home/rob/dotfiles/nvim
+	autoload
+1
+d/home/rob/dotfiles/nvim/autoload
+	..
+0
+d/home/rob/dotfiles/nvim
+	colors
+2
+d/home/rob/dotfiles/nvim/colors
+	..
+0
+d/home/rob/dotfiles/nvim
+	plugged
+3
+d/home/rob/dotfiles/nvim/plugged
+	..
+0
+d/home/rob/dotfiles/nvim
+	plugged
+3
+d/home/rob/dotfiles/nvim/plugged
+	..
+0
+d/home/rob/dotfiles/nvim
+	spell
+4
+d/home/rob/dotfiles/nvim/spell
+	..
+0
+d/home/rob/dotfiles/nvim
+	spell
+4
+d/home/rob/dotfiles
+	nvim
+2
+d/home/rob/dotfiles/nvim
+	spell
+4
+d/home/rob/dotfiles
+	LICENSE
+6
+d/home/rob
+	Backups
+20
+d/home/rob/Backups
+	Notes
+10
+d/home/rob/Backups/Notes
+	Naming.txt
+22
+d/home/rob/Downloads
+	manjaro-gnome-19.0.2-200312-linux54.iso
+2
+d/usr
+	share
+9
+d/
+	mnt
+8
+d/mnt
+	9bae9626-f501-44ec-baba-1cec06717de1
+1
+d/mnt/9bae9626-f501-44ec-baba-1cec06717de1
+	rob
+2
+d/mnt/9bae9626-f501-44ec-baba-1cec06717de1/rob
+	..
+0
+d/mnt/9bae9626-f501-44ec-baba-1cec06717de1
+	rob
+2
+d/home/rob/Downloads
+	Mojave-gtk-theme-master.zip
+1
 d
 
 # Right window history (oldest to newest):
-D/home/rob/Dropbox/Genealogy/Donovan
-	ed4ffb12-4712-4403-a8be-015418d00c65.jpeg
-70
-D/home/rob/Projects
-	quickemu
-3
-D/home/rob/Projects/quickemu
-	quickemu
-5
-D/home/rob/dotfiles
-	nvim
-6
-D/home/rob/dotfiles/nvim
-	plugged
-3
-D/home/rob/dotfiles/nvim/plugged
-	lightline.vim
-5
-D/home/rob/dotfiles/nvim/plugged/lightline.vim
-	plugin
-5
-D/home/rob/dotfiles/nvim/plugged/lightline.vim/plugin
-	..
-0
-D/home/rob/dotfiles/nvim/plugged/lightline.vim
-	autoload
-3
-D/home/rob/dotfiles/nvim/plugged/lightline.vim/autoload
-	lightline
-1
-D/home/rob/dotfiles/nvim/plugged/lightline.vim/autoload/lightline
-	colorscheme
-1
-D/home/rob/dotfiles/nvim/plugged/lightline.vim/autoload/lightline/colorscheme
-	..
-0
-D/home/rob/dotfiles/nvim/plugged/lightline.vim/autoload/lightline
-	colorscheme
-1
-D/home/rob/dotfiles/nvim/plugged/lightline.vim/autoload
-	lightline
-1
-D/home/rob/dotfiles/nvim/plugged/lightline.vim
-	autoload
-3
-D/home/rob/dotfiles/nvim/plugged
-	lightline.vim
-5
-D/home/rob/dotfiles/nvim
-	colors
-2
-D/home/rob/dotfiles/nvim/colors
-	..
-0
-D/home/rob/dotfiles/nvim
-	init.vim
-7
-D/home/rob/dotfiles
-	vifm
-11
-D/home/rob/dotfiles/vifm
-	colors
-1
-D/home/rob/dotfiles/vifm/colors
-	..
-0
-D/home/rob/dotfiles/vifm
-	vifmrc
-5
-D/home/rob
-	.zsh
-12
-D/home/rob/.zsh
-	history-substring-search
-1
-D/home/rob/.zsh/history-substring-search
-	..
-0
-D/home/rob/.zsh
-	pure
-2
-D/home/rob/.zsh/pure
-	..
-0
-D/home/rob/.zsh
-	zsh-extract
-3
-D/home/rob/.zsh/zsh-extract
-	..
-0
-D/home/rob/.zsh
-	zsh-extract
-3
-D/home/rob
-	.config
-2
-D/home/rob/.config
-	dconf
-9
-D/home/rob/.config/dconf
-	..
-0
-D/home/rob/.config
-	filemanager-actions
-14
-D/home/rob/.config/filemanager-actions
-	..
-0
-D/home/rob/.config
-	libaccounts-glib
-30
-D/home/rob/.config/libaccounts-glib
-	..
-0
-D/home/rob/.config
-	nautilus
-29
-D/home/rob/.config/nautilus
-	..
-0
-D/home/rob/.config
-	user-dirs.locale
-38
-D/home/rob
-	.gnupg
-8
-D/home/rob/.gnupg
-	..
-0
-D/home/rob
-	.local
-14
-D/home/rob/.local
-	share
-2
-D/home/rob/.local/share
-	applications
-3
-D/home/rob/.local/share/applications
-	..
-0
-D/home/rob/.local/share
-	backgrounds
-4
 D/home/rob/.local/share/backgrounds
 	..
 0
@@ -701,11 +557,153 @@ D/usr/share/zsh
 D/usr/share/zsh/plugins
 	..
 0
+D/home/rob/dotfiles
+	init.el
+15
+D/home/rob/Dropbox/Genealogy
+	Mcnaughton
+15
+D/home/rob/Dropbox/Genealogy/Mcnaughton
+	ScotlandsPeople_D1857_450_00_0020Z.jpg
+34
+D/home/rob/dotfiles
+	init.el
+15
+D/home/rob
+	dotfiles
+34
+D/home/rob/.config
+	mpv
+21
+D/home/rob/.config/mpv
+	mpv.conf
+1
+D/home/rob/.config
+	celluloid
+7
+D/home/rob/.config/celluloid
+	scripts
+1
+D/home/rob/.config/celluloid/scripts
+	..
+0
+D/home/rob/.config/celluloid
+	watch_later
+2
+D/home/rob/.config/celluloid/watch_later
+	..
+0
+D/home/rob/.config/celluloid
+	watch_later
+2
+D/home/rob/.config
+	eog
+11
+D/home/rob
+	.local
+4
+D/home/rob/.local
+	share
+1
+D/home/rob/.local/share
+	Player
+1
+D/home/rob/.local/share/Player
+	..
+0
+D/home/rob/.local/share
+	applications
+3
+D/home/rob/.local/share/applications
+	..
+0
+D/home/rob/.local/share
+	bauh
+5
+D/home/rob/.local/share/bauh
+	..
+0
+D/home/rob/.local/share
+	folks
+8
+D/home/rob/.local
+	share
+1
+D/home/rob
+	.local
+4
+D/home/rob/.config
+	mpv
+21
+D/home/rob/.config/mpv
+	mpv.conf
+1
+D/home/rob/.config
+	manjaro
+20
+D/home/rob/.config/manjaro
+	..
+0
+D/home/rob/.config
+	manjaro
+20
+D/home/rob
+	.icons
+4
+D/home/rob/.icons
+	default
+1
+D/home/rob
+	.themes
+12
+D/home/rob/.themes
+	..
+0
+D/home/rob
+	.config
+2
+D/home/rob/.config
+	eog
+10
+D/home/rob
+	.config
+2
+D/home/rob/dotfiles
+	gnomedots
+1
+D/home/rob/dotfiles/gnomedots
+	
+1
+D/home/rob/dotfiles
+	LICENSE
+6
+D/home/rob/Dropbox/Notes
+	..
+0
+D/home/rob/Dropbox
+	Notes
+8
+D/home/rob/Dropbox/Genealogy
+	Mcnaughton
+15
+D/home/rob/Dropbox/Genealogy/Mcnaughton
+	Wilson_Marriages_1700-1750-01.png
+34
+D/home/rob
+	scripts
+34
+D/home/rob/scripts
+	bu2plasma.sh
+2
+D/home/rob/Dropbox/Genealogy
+	Mcnaughton
+15
+D/home/rob/Dropbox/Genealogy/Mcnaughton
+	McNaughton_Marriages_1700-1760-01.png
+30
 D
 
 # Command line history (oldest to newest):
-:chmod +r
-:set viewcolumns={name},{mtime},{size}
 :set viewcolumns={name},-{mtime},{size}
 :set viewcolumns=-{name},{mtime},{size}
 :set viewcolumns=*{name},{mtime},{size}
@@ -799,10 +797,12 @@ D
 :marks
 :file
 :alink .Xresources
-:touch .projectile
 :chmod a+x
 :rename
 :mkdir Manjaro
+:mkdir McMojave-Ct McMojave
+:touch .gitignore
+:touch .projectile
 :q
 
 # Search history (oldest to newest):
@@ -908,8 +908,6 @@ D
 /town
 
 # Prompt history (oldest to newest):
-pWilliam_Donovan-Margaret_Regan
-p1842-Middlesbrough_Map
 pGen_Todo.md
 pvifm-cheatsheet
 pimgv
@@ -1008,6 +1006,8 @@ pChristopher_Kemble_Birth_Reg-1847
 pNathaniel_Kemble_Baptism_Transcript-1839
 p.spacemacs.d
 p.emacs.d
+p1841_Census-John_Pitkethley
+p1851_Census-John_Pitkethley
 
 # Local filter history (oldest to newest):
 |*.elc
@@ -1024,7 +1024,6 @@ p.emacs.d
 |.md
 
 # Registers:
-""/home/rob/Projects/quickemu/quickemu
 
 # Directory stack (oldest to newest):
 
