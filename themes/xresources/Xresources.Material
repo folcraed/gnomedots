@@ -1,0 +1,66 @@
+! special
+*.foreground:   #eceff1
+*.background:   #263238
+*.cursorColor:  #eceff1
+
+! black
+*.color0:       #252525
+*.color8:       #708284
+
+! red
+*.color1:       #FF5370
+*.color9:       #E53935
+
+! green
+*.color2:       #C3E88D
+*.color10:      #91B859
+
+! yellow
+*.color3:       #FFCB6B
+*.color11:      #FFB62C
+
+! blue
+*.color4:       #82AAFF
+*.color12:      #6182B8
+
+! magenta
+*.color5:       #BB80B3
+*.color13:      #945EB8
+
+! cyan
+*.color6:       #89DDFF
+*.color14:      #00BCD4
+
+! white
+*.color7:       #f5f5f5
+*.color15:      #f5f5f5
+
+! =================================
+
+! Generic term settings
+Xcursor.theme: default
+Xcursor.size: 16
+! xterm*VT100.Translations: <Key>BackSpace: string(0x7F)
+! *ttyModes: erase ^?
+
+! Render setting for cairo -> pango -> gtk
+Xft.dpi:        82
+Xft.autohint:   0
+Xft.lcdfilter:  lcddefault
+Xft.antialias:  1
+Xft.hinting:    1
+Xft.rgba:       rgb
+Xft.hintstyle:  hintslight
+
+! Settings for Rofi
+! State             bg       fg     bgalt     hlbg     hlfg
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! Based on Adapta-Nokto GTK theme (https://github.com/adapta-project/adapta-gtk-theme)
+! Copyright: PyGeek03
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #3a4c54, #2a373e, #c3c6c8
+rofi.color-normal: #455a64, #fafbfc, #455a64, #00bcd4, #fafbfc
+rofi.color-active: #455a64, #00bcd4, #455a64, #009688, #fdf6e3
+rofi.color-urgent: #455a64, #ff5252, #455a64, #ff5252, #fdf6e3

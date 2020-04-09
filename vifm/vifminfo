@@ -1,0 +1,1152 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'D
+	/home/rob/Dropbox
+	..
+1528422206
+'H
+	/home/rob/
+	..
+1468804597
+'P
+	/home/rob/Pictures
+	..
+1525146387
+'S
+	/home/rob/Dropbox/Settings
+	dotfiles
+1530373835
+'b
+	/home/rob/bin/
+	..
+1551038626
+'c
+	/home/rob/.config
+	..
+1468883417
+'d
+	/home/rob/Downloads
+	..
+1470057152
+'e
+	/etc
+	..
+1476844993
+'g
+	/home/rob/Dropbox/Genealogy
+	..
+1470057183
+'h
+	/home/rob/
+	..
+1468804597
+'j
+	/home/rob/Projects
+	lessons
+1543160158
+'k
+	/home/rob/Dropbox/Genealogy/Kuhns
+	..
+1550906075
+'l
+	/home/rob/.local
+	lib
+1525581658
+'n
+	/home/rob/Dropbox/Notes
+	..
+1538963883
+'p
+	/home/rob/dotfiles
+	..
+1553020098
+'r
+	/mnt/rob/Backups
+	..
+1551586638
+'s
+	/usr/share
+	..
+1528422164
+'t
+	/home/rob/Temp
+	..
+1475378377
+'u
+	/usr
+	share
+1528422170
+'v
+	/home/rob/Videos
+	..
+1554443468
+'x
+	/home/rob/Dropbox
+	..
+1549167800
+
+# Bookmarks:
+
+# TUI:
+ar
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/rob/Dropbox
+	Docs
+4
+d/home/rob/Dropbox/Docs
+	Illustrations_of_the_Topography_and_Anti.pdf
+34
+d/home/rob/Downloads
+	JetBrainsMono-1.0.0.zip
+4
+d/home/rob
+	Dropbox
+30
+d/home/rob/Dropbox
+	Genealogy
+5
+d/home/rob/Dropbox/Genealogy
+	Durkin
+5
+d/home/rob/Dropbox/Genealogy/Durkin
+	6-Feb-1884_British_Prince.jpg
+4
+d/home/rob/.config
+	pulse
+36
+d/home/rob
+	.cache
+2
+d/home/rob/.cache
+	tracker
+25
+d/home/rob/.cache/tracker
+	..
+0
+d/home/rob/.cache
+	typescript
+25
+d/home/rob
+	.local
+15
+d/home/rob/.local
+	share
+2
+d/home/rob/.local/share
+	tracker
+31
+d/home/rob/.local/share/tracker
+	data
+1
+d/home/rob/.local/share/tracker/data
+	..
+0
+d/home/rob/.local/share/tracker
+	data
+1
+d/home/rob/.local/share
+	..
+0
+d/home/rob/.local
+	share
+2
+d/home/rob
+	.config
+3
+d/home/rob/.config
+	..
+0
+d/home/rob
+	.dbus
+4
+d/home/rob/.dbus
+	session-bus
+1
+d/home/rob/.dbus/session-bus
+	..
+0
+d/home/rob/.dbus
+	session-bus
+1
+d/home/rob
+	.cache
+2
+d/home/rob/.cache
+	tracker
+25
+d/home/rob/.cache/tracker
+	..
+0
+d/home/rob/.cache
+	typescript
+25
+d/home/rob
+	.cache
+2
+d/home/rob/Downloads
+	cherrytree_0.38.9-0_all.deb
+4
+d/home/rob/Dropbox
+	Genealogy
+5
+d/home/rob/Dropbox/Genealogy
+	IrishGivenNameAlternatives.pdf
+33
+d/home/rob/Downloads
+	Mojave-gtk-theme-master.zip
+1
+d/home/rob
+	Pictures
+34
+d/home/rob/Pictures
+	Age and Stupidty.jpg
+4
+d/home/rob
+	Pictures
+34
+d/home/rob/.config
+	omf
+33
+d/home/rob/.config/omf
+	..
+0
+d/home/rob/.config
+	omf
+33
+d/home/rob/Downloads
+	Mojave-gtk-theme-master.zip
+1
+d/home/rob/Dropbox
+	Genealogy
+5
+d/home/rob
+	Pictures
+34
+d/home/rob/Pictures
+	waterfall-wallpaper-desktop-hd.jpg
+22
+d/home/rob
+	.gramps
+9
+d/home/rob/.gramps
+	gramps51
+5
+d/home/rob/.gramps/gramps51
+	plugins
+1
+d/home/rob/.gramps/gramps51/plugins
+	Form
+10
+d/home/rob/.gramps/gramps51/plugins/Form
+	form_gb.xml
+10
+d/home/rob/.gramps/gramps51/plugins
+	Form
+10
+d/home/rob
+	.config
+2
+d/home/rob/.config
+	vivaldi
+24
+d/home/rob/.config/vivaldi
+	..
+0
+d/home/rob/.config
+	vivaldi
+26
+d/home/rob/dotfiles
+	.projectile
+13
+d/home/rob
+	Pictures
+26
+d/home/rob/Pictures
+	Age and Stupidty.jpg
+4
+d/home/rob/Downloads
+	vivaldi-stable_2.11.1811.49-1_amd64.deb
+2
+d/usr
+	share
+11
+d/usr/share
+	python3
+18
+d/usr/share/python3
+	..
+0
+d/usr/share
+	python3
+18
+d/usr
+	lib
+4
+d/usr/lib
+	python3.7
+8
+d/usr/lib/python3.7
+	..
+0
+d/usr/lib
+	python3.8
+9
+d/usr/lib/python3.8
+	..
+0
+d/usr/lib
+	python3
+7
+d/usr/lib/python3
+	dist-packages
+1
+d/usr/lib/python3/dist-packages
+	gramps
+14
+d/usr/lib/python3/dist-packages/gramps
+	..
+0
+d/home/rob
+	Pictures
+26
+d/home/rob/Dropbox/Genealogy
+	Boudreau
+2
+d/home/rob/Dropbox/Genealogy/Boudreau
+	Hughes
+4
+d/home/rob/Dropbox/Genealogy/Boudreau/Hughes
+	..
+0
+d/home/rob/Dropbox/Genealogy/Boudreau
+	Lafontaine
+4
+d/home/rob/Dropbox/Genealogy
+	Hughes
+9
+d/home/rob/Dropbox/Genealogy/Hughes
+	..
+0
+d/usr
+	share
+11
+d/
+	mnt
+12
+d/mnt
+	..
+0
+d/
+	media
+11
+d/media
+	rob
+1
+d/media/rob
+	..
+0
+d/media
+	rob
+1
+d/
+	media
+11
+d/home/rob/dotfiles
+	nvim
+6
+d/home/rob/dotfiles/nvim
+	init.vim
+7
+d/home/rob
+	Temp
+4
+d/etc
+	group
+4
+d/home/rob
+	scripts
+41
+d/home/rob/scripts
+	bu2plasma.sh
+1
+d/home/rob
+	VMs
+36
+d/home/rob/VMs
+	quickemu
+3
+d/usr
+	lib
+4
+d/usr/lib
+	modules
+22
+d/usr/lib/modules
+	..
+0
+d/usr/lib
+	accountsservice
+3
+d/home/rob
+	VMs
+31
+d
+
+# Right window history (oldest to newest):
+D/home/rob/Dropbox/Genealogy/Donovan
+	ed4ffb12-4712-4403-a8be-015418d00c65.jpeg
+70
+D/home/rob/Projects
+	quickemu
+3
+D/home/rob/Projects/quickemu
+	quickemu
+5
+D/home/rob/dotfiles
+	nvim
+6
+D/home/rob/dotfiles/nvim
+	plugged
+3
+D/home/rob/dotfiles/nvim/plugged
+	lightline.vim
+5
+D/home/rob/dotfiles/nvim/plugged/lightline.vim
+	plugin
+5
+D/home/rob/dotfiles/nvim/plugged/lightline.vim/plugin
+	..
+0
+D/home/rob/dotfiles/nvim/plugged/lightline.vim
+	autoload
+3
+D/home/rob/dotfiles/nvim/plugged/lightline.vim/autoload
+	lightline
+1
+D/home/rob/dotfiles/nvim/plugged/lightline.vim/autoload/lightline
+	colorscheme
+1
+D/home/rob/dotfiles/nvim/plugged/lightline.vim/autoload/lightline/colorscheme
+	..
+0
+D/home/rob/dotfiles/nvim/plugged/lightline.vim/autoload/lightline
+	colorscheme
+1
+D/home/rob/dotfiles/nvim/plugged/lightline.vim/autoload
+	lightline
+1
+D/home/rob/dotfiles/nvim/plugged/lightline.vim
+	autoload
+3
+D/home/rob/dotfiles/nvim/plugged
+	lightline.vim
+5
+D/home/rob/dotfiles/nvim
+	colors
+2
+D/home/rob/dotfiles/nvim/colors
+	..
+0
+D/home/rob/dotfiles/nvim
+	init.vim
+7
+D/home/rob/dotfiles
+	vifm
+11
+D/home/rob/dotfiles/vifm
+	colors
+1
+D/home/rob/dotfiles/vifm/colors
+	..
+0
+D/home/rob/dotfiles/vifm
+	vifmrc
+5
+D/home/rob
+	.zsh
+12
+D/home/rob/.zsh
+	history-substring-search
+1
+D/home/rob/.zsh/history-substring-search
+	..
+0
+D/home/rob/.zsh
+	pure
+2
+D/home/rob/.zsh/pure
+	..
+0
+D/home/rob/.zsh
+	zsh-extract
+3
+D/home/rob/.zsh/zsh-extract
+	..
+0
+D/home/rob/.zsh
+	zsh-extract
+3
+D/home/rob
+	.config
+2
+D/home/rob/.config
+	dconf
+9
+D/home/rob/.config/dconf
+	..
+0
+D/home/rob/.config
+	filemanager-actions
+14
+D/home/rob/.config/filemanager-actions
+	..
+0
+D/home/rob/.config
+	libaccounts-glib
+30
+D/home/rob/.config/libaccounts-glib
+	..
+0
+D/home/rob/.config
+	nautilus
+29
+D/home/rob/.config/nautilus
+	..
+0
+D/home/rob/.config
+	user-dirs.locale
+38
+D/home/rob
+	.gnupg
+8
+D/home/rob/.gnupg
+	..
+0
+D/home/rob
+	.local
+14
+D/home/rob/.local
+	share
+2
+D/home/rob/.local/share
+	applications
+3
+D/home/rob/.local/share/applications
+	..
+0
+D/home/rob/.local/share
+	backgrounds
+4
+D/home/rob/.local/share/backgrounds
+	..
+0
+D/home/rob/.local/share
+	folks
+9
+D/home/rob/.local/share/folks
+	..
+0
+D/home/rob/.local/share
+	gegl-0.4
+11
+D/home/rob/.local/share/gegl-0.4
+	plug-ins
+1
+D/home/rob/.local/share/gegl-0.4/plug-ins
+	..
+0
+D/home/rob/.local/share/gegl-0.4
+	plug-ins
+1
+D/home/rob/.local/share
+	gvfs-metadata
+18
+D/home/rob/.local/share/gvfs-metadata
+	..
+0
+D/home/rob/.local/share
+	icons
+20
+D/home/rob/.local/share/icons
+	..
+0
+D/home/rob/.local/share
+	keyrings
+22
+D/home/rob/.local/share/keyrings
+	..
+0
+D/home/rob/.local/share
+	kxmlgui5
+23
+D/home/rob/.local/share/kxmlgui5
+	..
+0
+D/home/rob/.local/share
+	locale
+25
+D/home/rob/.local/share/locale
+	..
+0
+D/home/rob/.local/share
+	mime
+28
+D/home/rob/.local/share/mime
+	..
+0
+D/home/rob/.local/share
+	nvim
+31
+D/home/rob/.local/share/nvim
+	..
+0
+D/home/rob/.local/share
+	tracker
+34
+D/home/rob/.local/share/tracker
+	..
+0
+D/home/rob/.local/share
+	webkitgtk
+34
+D/home/rob/.local/share/webkitgtk
+	..
+0
+D/home/rob/.local/share
+	zeitgeist
+34
+D/home/rob/.local/share/zeitgeist
+	..
+0
+D/home/rob/.local/share
+	zeitgeist
+34
+D/home/rob/.local/share/zeitgeist
+	..
+0
+D/home/rob/.local/share
+	session_migration-budgie-desktop
+38
+D/home/rob/.local
+	share
+2
+D/home/rob/.local/share
+	..
+0
+D/home/rob/.local
+	share
+2
+D/home/rob
+	.pki
+18
+D/home/rob/.pki
+	nssdb
+1
+D/home/rob/.pki/nssdb
+	..
+0
+D/home/rob/.pki
+	nssdb
+1
+D/home/rob
+	.ssh
+20
+D/home/rob/.ssh
+	..
+0
+D/home/rob
+	.ssl
+21
+D/home/rob/.ssl
+	..
+0
+D/home/rob
+	.thumbnails
+23
+D/home/rob/.thumbnails
+	normal
+1
+D/home/rob/.thumbnails/normal
+	..
+0
+D/home/rob/.thumbnails
+	normal
+1
+D/home/rob
+	snap
+27
+D/home/rob/snap
+	..
+0
+D/home/rob
+	..
+0
+D/usr
+	share
+9
+D/usr/share
+	zsh
+70
+D/usr/share/zsh
+	plugins
+3
+D/usr/share/zsh/plugins
+	..
+0
+D
+
+# Command line history (oldest to newest):
+:chmod +r
+:set viewcolumns={name},{mtime},{size}
+:set viewcolumns={name},-{mtime},{size}
+:set viewcolumns=-{name},{mtime},{size}
+:set viewcolumns=*{name},{mtime},{size}
+:set viewcolumns=-80%{name},10%{mtime},10%{size}
+:open
+:h sort
+:sort
+:cd ~/.local/share
+:vs
+:trashes
+:c
+:mkdir streamlink
+:touch config
+:help copy
+:mkdir sway
+:mkdir bspwm
+:mkdir sxhkd
+:mkdir Jones
+:mkdir Notes
+:xclip -i 
+:xclip -i A_History_of_Ancient_Britain_3of4_Age_of_Cosmology.mp4
+:!xclip -i A_History_of_Ancient_Britain_3of4_Age_of_Cosmology.mp4
+:!xclip -i %c:p
+:%c:p | xclip
+:sh %c:p | xclip
+:nnoremap yf :!echo -n %c:p | xclip %i
+:!echo -n %c:p | xclip %i
+:!echo -n %c:p | xclip -selection clip %i
+:alink .dircolors
+:mkdir dunst
+:alink .mostrc
+:mkdir elegance-colors
+:mkdir presets
+:mkdir userscripts
+:cd /mnt
+:sor
+:!feh %c &
+:!okular %c &
+:set number
+:mkdir plugins
+:touch vifmicons.txt
+:=*.md
+:mkdir limbo memory mind stencils
+:view
+:touch imgc
+:set millerview
+:set millerview off
+:unset millerview
+:set multicolumn
+:set previewprg highlight
+:set previewprg=highlight
+:touch notes.org
+:mkdir Gen Software
+:touch index.md
+:mkdir Org
+:touch index.org
+:mkdir org-bullets
+:touch org-bullets.el
+:mkdir Kuhns
+:?
+:mkdir Projects
+:touch .flake8
+:touch maildraft.txt
+:mkdir markdown
+:mkdir vnote
+:mkdir memory
+:shell
+:set shell /usr/bin/zsh
+:set shell "/usr/bin/zsh"
+:nohl
+:touch 
+:touch Changes.org
+:touch config.fish
+:set shell?
+:h info
+:! sxiv -t %d
+:! sxiv -t %d &
+:chmod -x
+:mkdir spell
+:help
+:mkdir .icons
+:mkdir Vnotes
+:h
+:tree
+:tree!
+:mkdir gnomedots
+:mkdir .dotfiles
+:mkdir .emacs.d
+:f
+:alink
+:marks
+:file
+:alink .Xresources
+:touch .projectile
+:chmod a+x
+:rename
+:mkdir Manjaro
+:q
+
+# Search history (oldest to newest):
+/Hanna
+/f89c
+/marga
+/0057
+/757
+/ncdu
+/pyc
+/1830
+/python
+/Michael
+/Massa
+/McQueen
+/Ann_McQ
+/annd
+/022
+/c117
+/Timothy
+/Lewis
+/Gunner
+/Helen
+/McDonn
+/xfc
+/xfce
+/gtk
+/http
+/libht
+/Kelly
+/Den
+/Andrew
+/Marg
+/libluaj
+/git
+/Timo
+/James Lewis
+/mime
+/Dennis
+/awes
+/jar
+/John
+/John Donovan
+/disk
+/sol
+/Daniel
+/filter /.jpg
+/George
+/code
+/Map
+/Scranton
+/David
+/Quinn``
+/Tom
+/Ann
+/zath
+/nvim
+/Xre
+/Catherine
+/i3
+/zip
+/liblua
+/.txt
+/Screenshot
+/pdf
+/theme
+/themes
+/Schull
+/doc
+/net
+/neofe
+/ranger
+/cork
+/00034
+/Irish
+/vifm
+/Jack
+/surnames
+/Michael_Durkin-Ann
+/52f6
+/fb6a
+/2474
+/colem
+/este
+/esth
+/Jacob
+/system
+/dbus
+/qtile
+/Ray
+/McK
+/4627
+/*4627*
+/WWI
+//
+/Martin
+/zsh
+/Henry
+/Ellen
+/icons
+/gnome-sess
+/w3m
+/town
+
+# Prompt history (oldest to newest):
+pWilliam_Donovan-Margaret_Regan
+p1842-Middlesbrough_Map
+pGen_Todo.md
+pvifm-cheatsheet
+pimgv
+p.vifm
+pStMarysCardiff1881
+pThomas_William_Speed
+precord-image_33SQ-GRVT-2HY
+pPractical_Vim_2nd_Edition
+pmypygmalion
+pTime_Team_S15-E09_Saxons_on_the_Edge-Stonton_Wyville
+pIRE_PRS_MICROFILM08835-04_0090-22-10-1845
+pIRE_PRS_MICROFILM04166-05_0038-Killucan
+pTime_Team_S17-E05_Sutton_Courtenay
+pnotes
+pmynotes
+pCeltic_Woman_at_the_Helix_Center
+pLisa_Kelly-The_Voice
+pChanges-2018
+pTime_Team_S10-E01_Raunds_Northants
+precord-image_1860-1
+precord-image_1850-1
+precord-image_1870-1
+pWalsh.md
+ponedark.css
+ponedark
+pla
+pKillaloe-IRE_PRS_MICROFILM02479-01_0011
+pOughterard-IRE_PRS_MICROFILM02438-07_0019
+pCobh-IRE_PRS_MICROFILM04986-05_0023
+p2696250-1891
+p2697098-1893
+p2683741-1896
+p2694491-1894
+p3060918-1900
+p2684166-1898
+pElizabeth_Donovan_GRO_Death
+pJames_Donovan_GRO_Birth_1866
+pDaniel_Donovan_GRO_Birth_1868
+pMargaret_Donovan_GRO_Birth_1862
+pJoanna_Donovan_GRO_Birth_1850
+pJoanna_Donovan_GRO_Birth_1850_Tunbridge
+pPatrick_McQueeney_Baptism_Dublin_1833
+pPatrick_McVeney_Baptism_Galway_1833
+pMary_McAveeny_Baptism_Dublin_1831
+pJohanna_Donovan_Marriage-1
+pJohanna_Donovan_Marriage-2
+pJohanna_Donovan_Marriage-3
+pJohanna_Donovan_Marriage-4
+pJohanna_Donovan_Marriage-5
+pJohanna_Donovan_Marriage-6
+pMary_Donovan_GRO_Birth_1851
+pCornelius_Donovan_GRO_Birth_1850
+pMary_Donovan_GRO_Death-1847
+pJohn_Donovan_GRO_Death-1841
+pJohn_Donovans_Born_1836-1840_Cardiff
+pIRE_PRS_MICROFILM04774-05_0105-Skibbereen
+pvtls000635270_125-Skibbereen
+pUnnamed_Donovan_GRO_Birth-1848_Newport
+pTimothy_Bryan_Baptism
+pTimothy_Bryan_Baptism-1829
+pJulia_Bryan_Baptism-1826
+pMargaret_Bryan_Baptism-1825
+pEllen_Bryan_Baptism-1823
+pMale_Donovan_Birth-1848
+pMale_Donovan_GRO_Birth-1848-1852-Abergavenny
+pMale_Donovan_GRO_Births-1848-1852-Merthyr
+pMale_Donovan_GRO_Birth-1848-1852-Cardiff
+pMale_Donovan_GRO_Births-1848-1852-Cardiff
+pMale_Donovan_GRO_Births-1848-1852-Abergavenny
+pBernard_?_Baptism
+pJohanna_Donovan_GRO_Order_Receipt
+pGRO_Male_Donovans_who_died_1847-1849-Newport
+pMale_Donovan_Death-1848
+pEllen_Donovan_GRO_Birth-1850
+pWilliam_Brown_1861_Census
+pgnomedots1
+pgnomedots
+pJavaScript_Crash_Course_4_Beginners
+pJavaScript_Crash_Course_For_Beginners
+pba86bc03745f.png
+pGBPRS_1537-1900_00071
+pRichard_Donovan_GRO-2.png
+pJohn Donovan Suspects.emmx
+p.my-emacs.d
+pLetitia_Moreno_List
+pLetitia_Moreno_tree
+pWilliam_Harris-Mary_Jeffery_Marriage_Index
+p.spacemacs.d
+pIRE_PRS_MICROFILM04774-04_0058-Skibbereen
+pIRE_PRS_MICROFILM04778-04_0102-Cork_City
+pAgatha_Davies_GRO_Birth-1846
+pEdward_Davies-Eliza_Cooper_Marriage-1845
+pWilliam_Kemble_Probate_Index-1907
+pWilliam_Kemble-Elizabeth_Burton_Marriage_Index-1865
+pChristopher_Kemble_Birth_Reg-1847
+pNathaniel_Kemble_Baptism_Transcript-1839
+p.spacemacs.d
+p.emacs.d
+
+# Local filter history (oldest to newest):
+|*.elc
+|.elc
+|.txt
+|*Walsh*
+|Martin
+|pdf
+|*.md
+| *.pdf
+|/*.org
+|.org
+|.pdf
+|.md
+
+# Registers:
+""/home/rob/Projects/quickemu/quickemu
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/rob/.local/share/Trash/000_.Xresources
+	/home/rob/.Xresources
+t/home/rob/.local/share/Trash/000_mpv
+	/home/rob/.config/mpv
+t/home/rob/.local/share/Trash/000_67fabb72-5a62-49c1-8e26-30f74d0305f9.png
+	/home/rob/Pictures/67fabb72-5a62-49c1-8e26-30f74d0305f9.png
+t/home/rob/.local/share/Trash/000_Notes.code-workspace
+	/home/rob/Dropbox/Docs/Notes/Notes.code-workspace
+t/home/rob/.local/share/Trash/000_.dir_colors
+	/home/rob/.dir_colors
+t/home/rob/.local/share/Trash/000_.dircolors
+	/home/rob/.dircolors
+t/home/rob/.local/share/Trash/000_Downloads(1)
+	/home/rob/Downloads(1)
+t/home/rob/.local/share/Trash/000_plug.vim.old
+	/home/rob/Dropbox/Settings/dotfiles/.vim/autoload/plug.vim.old
+t/home/rob/.local/share/Trash/001_plug.vim.old
+	/home/rob/Dropbox/Settings/dotfiles/nvim/autoload/plug.vim.old
+t/home/rob/.local/share/Trash/000_flattened_dark.vim
+	/home/rob/Dropbox/Settings/dotfiles/nvim/colors/flattened_dark.vim
+t/home/rob/.local/share/Trash/000_pycharm.desktop
+	/home/rob/.local/share/applications/pycharm.desktop
+t/home/rob/.local/share/Trash/000_boostnote.json
+	/home/rob/Dropbox/Notes/boostnote.json
+t/home/rob/.local/share/Trash/000_todolist.org
+	/home/rob/Dropbox/Notes/todolist.org
+t/home/rob/.local/share/Trash/000_.projectile
+	/home/rob/Dropbox/Notes/.projectile
+t/home/rob/.local/share/Trash/000_software.md
+	/home/rob/Dropbox/Vnotes/software.md
+t/home/rob/.local/share/Trash/000_todo.md
+	/home/rob/Dropbox/Vnotes/todo.md
+t/home/rob/.local/share/Trash/000_Bryan_Siblings.md
+	/home/rob/Dropbox/Vnotes/Bryan_Siblings.md
+t/home/rob/.local/share/Trash/000_Catherine_Donovan.md
+	/home/rob/Dropbox/Vnotes/Catherine_Donovan.md
+t/home/rob/.local/share/Trash/000_Changes-2018.md
+	/home/rob/Dropbox/Vnotes/Changes-2018.md
+t/home/rob/.local/share/Trash/000_Changes.md
+	/home/rob/Dropbox/Vnotes/Changes.md
+t/home/rob/.local/share/Trash/000_DNA.md
+	/home/rob/Dropbox/Vnotes/DNA.md
+t/home/rob/.local/share/Trash/000_Daniel_Donovan.md
+	/home/rob/Dropbox/Vnotes/Daniel_Donovan.md
+t/home/rob/.local/share/Trash/000_Denis_Donovan.md
+	/home/rob/Dropbox/Vnotes/Denis_Donovan.md
+t/home/rob/.local/share/Trash/000_Durkin.md
+	/home/rob/Dropbox/Vnotes/Durkin.md
+t/home/rob/.local/share/Trash/000_Henry.md
+	/home/rob/Dropbox/Vnotes/Henry.md
+t/home/rob/.local/share/Trash/000_Irish_Research.md
+	/home/rob/Dropbox/Vnotes/Irish_Research.md
+t/home/rob/.local/share/Trash/000_John_Donovan_Known.md
+	/home/rob/Dropbox/Vnotes/John_Donovan_Known.md
+t/home/rob/.local/share/Trash/000_John_Donovan_Research.md
+	/home/rob/Dropbox/Vnotes/John_Donovan_Research.md
+t/home/rob/.local/share/Trash/000_Jones.md
+	/home/rob/Dropbox/Vnotes/Jones.md
+t/home/rob/.local/share/Trash/000_Kuhns_Research.md
+	/home/rob/Dropbox/Vnotes/Kuhns_Research.md
+t/home/rob/.local/share/Trash/000_Lori_theories.md
+	/home/rob/Dropbox/Vnotes/Lori_theories.md
+t/home/rob/.local/share/Trash/000_Misc.md
+	/home/rob/Dropbox/Vnotes/Misc.md
+t/home/rob/.local/share/Trash/000_Newspapers.md
+	/home/rob/Dropbox/Vnotes/Newspapers.md
+t/home/rob/.local/share/Trash/000_Richford.md
+	/home/rob/Dropbox/Vnotes/Richford.md
+t/home/rob/.local/share/Trash/000_Speed.md
+	/home/rob/Dropbox/Vnotes/Speed.md
+t/home/rob/.local/share/Trash/000_Timothy_Donovan.md
+	/home/rob/Dropbox/Vnotes/Timothy_Donovan.md
+t/home/rob/.local/share/Trash/000_Walsh.md
+	/home/rob/Dropbox/Vnotes/Walsh.md
+t/home/rob/.local/share/Trash/001_.Xresources
+	/home/rob/Dropbox/Settings/dotfiles/.Xresources
+t/home/rob/.local/share/Trash/000_guake.desktop
+	/home/rob/.config/autostart/guake.desktop
+t/home/rob/.local/share/Trash/000_at-spi-dbus-bus.desktop
+	/home/rob/.config/autostart/at-spi-dbus-bus.desktop
+t/home/rob/.local/share/Trash/000_ignore-lid-switch-tweak.desktop
+	/home/rob/.config/autostart/ignore-lid-switch-tweak.desktop
+t/home/rob/.local/share/Trash/000_mate-optimus.desktop
+	/home/rob/.config/autostart/mate-optimus.desktop
+t/home/rob/.local/share/Trash/000_mate-screensaver.desktop
+	/home/rob/.config/autostart/mate-screensaver.desktop
+t/home/rob/.local/share/Trash/000_onboard-autostart.desktop
+	/home/rob/.config/autostart/onboard-autostart.desktop
+t/home/rob/.local/share/Trash/000_orca-autostart.desktop
+	/home/rob/.config/autostart/orca-autostart.desktop
+t/home/rob/.local/share/Trash/000_org.gnome.DejaDup.Monitor.desktop
+	/home/rob/.config/autostart/org.gnome.DejaDup.Monitor.desktop
+t/home/rob/.local/share/Trash/000_spice-vdagent.desktop
+	/home/rob/.config/autostart/spice-vdagent.desktop
+t/home/rob/.local/share/Trash/000_ubuntu-mate-welcome-autostart.desktop
+	/home/rob/.config/autostart/ubuntu-mate-welcome-autostart.desktop
+t/home/rob/.local/share/Trash/000_.cinnamon
+	/home/rob/.cinnamon
+t/home/rob/.local/share/Trash/000_.bash_history
+	/home/rob/.bash_history
+t/home/rob/.local/share/Trash/000_.ICEauthority
+	/home/rob/.ICEauthority
+t/home/rob/.local/share/Trash/000_.Xauthority
+	/home/rob/.Xauthority
+t/home/rob/.local/share/Trash/000_Bernie.ctd
+	/home/rob/Dropbox/Genealogy/Bernie.ctd
+t/home/rob/.local/share/Trash/000_Donovan.ctd
+	/home/rob/Dropbox/Genealogy/Donovan.ctd
+t/home/rob/.local/share/Trash/000_MomsGen.ctd
+	/home/rob/Dropbox/Genealogy/MomsGen.ctd
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0

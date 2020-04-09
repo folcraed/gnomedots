@@ -1,0 +1,59 @@
+! Hybrid Terminal Colours. Uses the palette from Tomorrow-Night:
+! vim: ft=xdefaults
+
+*background: #232C31
+*foreground: #C5C8C6
+! black
+*color0: #2D3C46
+*color8: #425059
+! red
+*color1: #A54242
+*color9: #CC6666
+! green
+*color2: #8C9440
+*color10: #B5BD68
+! yellow
+*color3: #DE935F
+*color11: #F0C674
+! blue
+*color4: #5F819D
+*color12: #81A2BE
+! magenta
+*color5: #85678F
+*color13: #B294BB
+! cyan
+*color6: #5E8D87
+*color14: #8ABEB7
+! white
+*color7: #6C7A80
+*color15: #C5C8C6
+
+! Generic term settings
+Xcursor.theme: default
+Xcursor.size: 16
+! xterm*VT100.Translations: <Key>BackSpace: string(0x7F)
+! *ttyModes: erase ^?
+
+! Render setting for cairo -> pango -> gtk
+Xft.dpi:        81
+Xft.autohint:   0
+Xft.lcdfilter:  lcddefault
+Xft.antialias:  1
+Xft.hinting:    1
+Xft.rgba:       rgb
+Xft.hintstyle:  hintslight
+
+! Xterm settings
+xterm*utf8: 1
+xterm*termName: xterm-256color
+xterm*faceName: Roboto Mono:size=10:antialias=false
+xterm*selectToClipboard: true
+xterm*appcursorDefault: true
+xterm*geometry: 132x42
+
+! Settings for Rofi
+rofi.color-enable: true
+! State             bg           fg        bgalt       hlbg        hlfg
+rofi.color-normal: #282c34,    #56b6c2,    #282c34,    #546E7A,    #F3F3F3
+rofi.color-active: #282c34,    #d19a66,    #282c34,    #546E7A,    #F3F3F3
+rofi.color-window: #282c34,    #282c34
