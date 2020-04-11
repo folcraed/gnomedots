@@ -1,4 +1,4 @@
 nvim/plugged
 vifm/vifminfo
-vifm/vifminfo*
-**/vifminfo
+# vifm/vifminfo*
+# **/vifminfo
