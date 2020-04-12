@@ -421,7 +421,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- ;; '(company-box-candidate ((t (:foreground "#c2c2b0" :height 0.9 :family "JetBrains Mono"))))
  '(company-box-candidate ((t (:height 0.9))))
  '(cursor ((t (:background "#61AFEF"))))
  '(font-lock-comment-delimiter-face ((t (:inherit font-lock-comment-face))))
