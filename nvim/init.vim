@@ -35,6 +35,7 @@ set history=50
 set linebreak
 set ignorecase
 set smartcase
+set clipboard=unnamedplus
 set wildmode=list:longest,full
 set ttimeoutlen=50
 set dir=~/Temp
