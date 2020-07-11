@@ -8,34 +8,30 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
-Plug 'itchyny/lightline.vim'
-Plug 'taohexxx/lightline-buffer'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'joshdick/onedark.vim'
-Plug 'lilydjwg/colorizer'
+Plug 'norcalli/nvim-colorizer.lua'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
+Plug 'easymotion/vim-easymotion'
 Plug 'godlygeek/tabular'
 Plug 'eugen0329/vim-esearch'
 Plug 'masukomi/vim-markdown-folding', { 'for': 'markdown' }
-Plug 'Scuilion/markdown-drawer'
 
 call plug#end()
 
 "==================================================
 " Set global options
 "==================================================
-set termguicolors
-set guifont=Iosevka:h12
 set encoding=utf-8
 set expandtab
 set tabstop=4
 set shiftwidth=4
 set history=50
 set linebreak
-set ignorecase
-set smartcase
-set clipboard=unnamedplus
+set ignorecase smartcase
 set wildmode=list:longest,full
 set ttimeoutlen=50
 set dir=~/Temp
@@ -56,7 +52,7 @@ set fcs=eob:\
 set spelllang=en_us
 set spellfile=~/.config/nvim/spell/en.utf-8.add
 let mapleader = " "
- 
+
 "==================================================
 " Set xdg-open to open links with gx
 "==================================================
@@ -99,13 +95,6 @@ nno <silent><leader>e :edit .<cr>
 let g:fzf_buffers_jump = 1
 
 "==================================================
-" Settings for Markdown drawer
-"==================================================
-let g:markdrawer_drawer_max_levels = 5 " max levels to display
-let g:markdrawer_toc = 'index' " displays as a TOC
-let g:markdrawer_width = "50"
-
-"==================================================
 " Settings for Markdown folding
 "==================================================
 if has ("autocmd")
@@ -113,45 +102,28 @@ if has ("autocmd")
 endif
 
 "==================================================
-" --{{ Settings for Lightline
+" --{{ Settings for Airline
 "==================================================
-let g:lightline = {
-    \ 'colorscheme': 'Tomorrow_Night_Eighties',
-    \ 'tabline': {
-    \   'left': [ [ 'bufferinfo' ],
-    \             [ 'separator' ],
-    \             [ 'bufferbefore', 'buffercurrent', 'bufferafter' ], ],
-    \   'right': [ [ 'close' ], ],
-    \ },
-    \ 'component_expand': {
-    \   'buffercurrent': 'lightline#buffer#buffercurrent',
-    \   'bufferbefore': 'lightline#buffer#bufferbefore',
-    \   'bufferafter': 'lightline#buffer#bufferafter',
-    \ },
-    \ 'component_type': {
-    \   'buffercurrent': 'tabsel',
-    \   'bufferbefore': 'raw',
-    \   'bufferafter': 'raw',
-    \ },
-    \ 'component_function': {
-    \   'bufferinfo': 'lightline#buffer#bufferinfo',
-    \   'gitbranch': 'fugitive#head',
-    \ },
-    \ 'component': {
-    \   'separator': '',
-    \ },
-    \ 'active': {
-    \   'left': [ ['mode', 'paste'],
-    \             ['gitbranch', 'readonly', 'filename', 'modified']]
-    \ },
-    \ }
-" --}} End of Lightline settings
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ''
+let g:airline#extensions#tabline#left_alt_sep = ''
+let g:airline#extensions#tabline#right_sep = ''
+let g:airline#extensions#tabline#right_alt_sep = ''
+let g:airline#extensions#tabline#formatter = 'unique_tail'
+let g:airline_powerline_fonts = 1
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_theme = 'onedark'
+
+" --}} End of Airline settings
 
 "==================================================
 " --{{ Set up colorschemes
 "==================================================
 " let g:neodark#background = '#2b303b'
-" let g:onedark_terminal_italics = 1
+let g:onedark_terminal_italics = 1
 " let g:spacegray_use_italics = 1
 " let g:spacegray_underline_search = 1
 " let g:onedark_termcolors = 256
@@ -159,16 +131,20 @@ let g:lightline = {
 " let g:nord_italic = 1
 " let g:nord_italic_comments = 1
 
-set background=dark
+set background=dark termguicolors
 " colorscheme neodark
-" colorscheme onedark
+colorscheme onedark
 " colorscheme spacegray
-colorscheme Tomorrow-Night
+" colorscheme Tomorrow-Night
 " colorscheme solarized8
 " colorscheme materialbox
 " colorscheme base16-ocean
 " colorscheme nord
 " colorscheme hybrid_material
+
+" Make sure terminal background isn't overwritten
+hi! Normal ctermbg=NONE guibg=NONE
+hi! NonText ctermbg=NONE guibg=NONE guifg=NONE ctermfg=NONE
 " --}} End of colorschemes
 
 "==================================================
@@ -181,9 +157,9 @@ colorscheme Tomorrow-Night
 nno <silent><leader>o :Files<cr>
 nno <silent><leader>O :FZF ~<cr>
 nno <silent><leader>b :Buffers<cr>
-nno <silent><leader>l :BLines<cr>
-nno <silent><leader>p :Lines<cr>
-nno <leader>g :Rg
+nno <silent><leader>s :BLines<cr>
+nno <silent><leader>f :Lines<cr>
+nno <leader>g :Rg<cr>
 
 "==================================================
 " This opens markdown in okular
@@ -234,6 +210,12 @@ nno <silent><S-tab> :tabprev
 " This closes the currently viewed buffer and loads the last in the window
 "==================================================
 nno <silent><leader>c :bp\|bd #<CR>
+
+"==================================================
+" Insert today's date at the cursor
+"==================================================
+:nno <F4> "=strftime("%a %d %b %Y")<cr>P
+:ino <F4> <C-R>=strftime("%a %d %b %Y")<cr>
 
 "==================================================
 " This makes unrecognized code files use shell syntax highlighting
@@ -294,12 +276,6 @@ nno <F2> :source ~/Dropbox/Docs/Notes/Session.vim<CR>
 nno <F3> :wa<Bar>exe "mksession! " . v:this_session<CR>
 
 "==================================================
-" Toogle the markdown outline view.
-"==================================================
-nno <silent><F8> :MarkDrawer<cr>
-ino <silent><F8> :MarkDrawer<cr>
-
-"==================================================
 " Snippets
 "==================================================
 nno <leader>= o==================================================<cr><ESC>
@@ -307,7 +283,7 @@ nno <leader>= o==================================================<cr><ESC>
 "==================================================
 " Save a admin file from regular user
 "==================================================
-nno <silent><leader>r :w !sudo tee % .
+nno <silent><leader>r :w !sudo tee %
 
 "==================================================
 " Don't use Ex mode, use Q for formatting
@@ -328,7 +304,7 @@ ino <C-U> <C-G>u<C-U>
 " Only do this part when compiled with support for autocommands.
 "==================================================
 if has("autocmd")
-
+lua require'colorizer'.setup()
 "==================================================
 " Put these in an autocmd group, so that we can delete them easily.
 "==================================================
