@@ -5,9 +5,7 @@
 "==================================================
 call plug#begin('~/.config/nvim/plugged')
 
-Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
-Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'joshdick/onedark.vim'
@@ -17,8 +15,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'easymotion/vim-easymotion'
 Plug 'godlygeek/tabular'
-Plug 'eugen0329/vim-esearch'
-Plug 'masukomi/vim-markdown-folding', { 'for': 'markdown' }
+Plug 'vifm/vifm.vim'
 
 call plug#end()
 
@@ -51,6 +48,7 @@ set foldcolumn=2
 set fcs=eob:\
 set spelllang=en_us
 set spellfile=~/.config/nvim/spell/en.utf-8.add
+set termguicolors
 let mapleader = " "
 
 "==================================================
@@ -64,42 +62,16 @@ let g:netrw_browsex_viewer = "xdg-open"
 nno <leader>t :TableFormat<cr>
 
 "==================================================
-" --{{ Settings for vim-esearch
-" It uses <leader>ff to search
+" Settings for Vifm
 "==================================================
-let g:esearch = {
-  \ 'adapter':    'rg',
-  \ 'backend':    'nvim',
-  \ 'out':        'qflist',
-  \ 'batch_size': 1000,
-  \ 'use':        ['word_under_cursor'],
-  \ 'default_mappings': 1,
-  \}
-" --}} end of settings for vim-esearch
-
-"==================================================
-" Settings for NerdTree so it's more sane
-"==================================================
-nno <silent><leader>n :NERDTreeToggle<CR>
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-let g:NERDTreeHijackNetrw=1
-let NERDTreeShowBookmarks=1
-let NERDTreeShowHidden=1
-let g:NERDTreeDirArrowExpandable = '▸'
-let g:NERDTreeDirArrowCollapsible = '▾'
-nno <silent><leader>e :edit .<cr>
+let g:vifm_embed_split=1
+nno <leader>v :Vifm<CR>
 
 "==================================================
 " Settings for FZF
 "==================================================
 let g:fzf_buffers_jump = 1
-
-"==================================================
-" Settings for Markdown folding
-"==================================================
-if has ("autocmd")
-    filetype plugin indent on
-endif
+let g:fzf_layout = {'up':'~90%', 'window': { 'width': 0.8, 'height': 0.8,'yoffset':0.5,'xoffset': 0.5, 'border': 'sharp' } }
 
 "==================================================
 " --{{ Settings for Airline
@@ -119,7 +91,6 @@ let g:airline_theme = 'onedark'
 
 " --}} End of Airline settings
 
-"==================================================
 " --{{ Set up colorschemes
 "==================================================
 " let g:neodark#background = '#2b303b'
@@ -131,7 +102,7 @@ let g:onedark_terminal_italics = 1
 " let g:nord_italic = 1
 " let g:nord_italic_comments = 1
 
-set background=dark termguicolors
+" set background=dark termguicolors
 " colorscheme neodark
 colorscheme onedark
 " colorscheme spacegray
@@ -143,8 +114,9 @@ colorscheme onedark
 " colorscheme hybrid_material
 
 " Make sure terminal background isn't overwritten
-hi! Normal ctermbg=NONE guibg=NONE
-hi! NonText ctermbg=NONE guibg=NONE guifg=NONE ctermfg=NONE
+" hi! Normal ctermbg=NONE guibg='#232629'
+hi Normal guibg=NONE ctermbg=NONE
+" hi! NonText ctermbg=NONE guibg='#232629' guifg=NONE ctermfg=NONE
 " --}} End of colorschemes
 
 "==================================================
@@ -155,7 +127,7 @@ hi! NonText ctermbg=NONE guibg=NONE guifg=NONE ctermfg=NONE
 " FZF Keybindings
 "==================================================
 nno <silent><leader>o :Files<cr>
-nno <silent><leader>O :FZF ~<cr>
+nno <silent><leader>a :FZF ~<cr>
 nno <silent><leader>b :Buffers<cr>
 nno <silent><leader>s :BLines<cr>
 nno <silent><leader>f :Lines<cr>
@@ -197,8 +169,8 @@ nno <silent><leader>h :noh<cr>
 "==================================================
 "Make moving back and forth in buffers easier
 "==================================================
-nno <silent><leader>[ :bp<cr>
-nno <silent><leader>] :bn<cr>
+nno <silent><leader>l :bp<cr>
+nno <silent><leader>r :bn<cr>
 
 "==================================================
 " Make moving back and forth in tabs easier
@@ -214,8 +186,8 @@ nno <silent><leader>c :bp\|bd #<CR>
 "==================================================
 " Insert today's date at the cursor
 "==================================================
-:nno <F4> "=strftime("%a %d %b %Y")<cr>P
-:ino <F4> <C-R>=strftime("%a %d %b %Y")<cr>
+nno <F4> "=strftime("%a %d %b %Y")<cr>P
+ino <F4> <C-R>=strftime("%a %d %b %Y")<cr>
 
 "==================================================
 " This makes unrecognized code files use shell syntax highlighting
@@ -266,29 +238,17 @@ nno <leader>w :%s/\s\+$//<cr>:let @/=''<cr>
 "==================================================
 " Zoom a vim pane, <C-w>- to re-balance
 "==================================================
-nno <leader>+ :wincmd =<cr>:wincmd \|<cr>
-nno <leader>- :wincmd =<cr>
-
-"==================================================
-" Session management. F2 loads the notes session, F3 saves it.
-"==================================================
-nno <F2> :source ~/Dropbox/Docs/Notes/Session.vim<CR>
-nno <F3> :wa<Bar>exe "mksession! " . v:this_session<CR>
+nno <leader>z :wincmd =<cr>:wincmd \|<cr>
+nno <leader>u :wincmd =<cr>
 
 "==================================================
 " Snippets
 "==================================================
-nno <leader>= o==================================================<cr><ESC>
 
 "==================================================
 " Save a admin file from regular user
 "==================================================
-nno <silent><leader>r :w !sudo tee %
-
-"==================================================
-" Don't use Ex mode, use Q for formatting
-"==================================================
-map Q gq
+nno <silent><leader>x :w !sudo -S tee %
 
 "==================================================
 " CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
@@ -305,6 +265,7 @@ ino <C-U> <C-G>u<C-U>
 "==================================================
 if has("autocmd")
 lua require'colorizer'.setup()
+
 "==================================================
 " Put these in an autocmd group, so that we can delete them easily.
 "==================================================
